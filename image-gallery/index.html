@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Image Gallery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <h1 class="title">Modern Image Gallery</h1>
+
+  <div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('animals')">Animals</button>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <div class="image-card nature"><img src="images/img1.jpg" alt="Nature 1"></div>
+    <div class="image-card city"><img src="images/img2.jpg" alt="City 1"></div>
+    <div class="image-card animals"><img src="images/img3.jpg" alt="Animal 1"></div>
+    <div class="image-card nature"><img src="images/img4.jpg" alt="Nature 2"></div>
+    <div class="image-card city"><img src="images/img5.jpg" alt="City 2"></div>
+    <div class="image-card animals"><img src="images/img6.jpg" alt="Animal 2"></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox hidden">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Preview" />
+    <button class="nav prev" onclick="changeImage(-1)">&#10094;</button>
+    <button class="nav next" onclick="changeImage(1)">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
