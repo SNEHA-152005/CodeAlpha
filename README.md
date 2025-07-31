@@ -1,1 +1,2 @@
 # CodeAlpha
+Hello! I'm Sneha Kansal a second-year BTECH student in Computer Science and Engineering (CSE) in Internet Of Things (IOT) specialization at NIET,Greater Noida . I'm excited to share the code for the tasks I have completed during my internship at CodeAlpha. I have submitted the following programs: Basic Calculator and  Image Gallary All of these projects were developed using HTML,CSS and Javascript, which aligns with the focus of my internship. Thank You!
